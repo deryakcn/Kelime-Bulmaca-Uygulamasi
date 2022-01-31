@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".oyun_ekrani">
+    //elevation=gölge CornerRadius=oval
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="15dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_sorular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/soruekrani"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/txt_cevaplar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="65dp"
+            android:text="________"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view"></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/tablo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="btnIstatistikTablosu"
+        android:src="@drawable/statistics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/txt_tahmin_giriniz"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:hint="Tahmin değerini giriniz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_view"></EditText>
+
+    <LinearLayout
+        android:id="@+id/oyun_butonlar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tahmin_giriniz">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/harf_al_background"
+            android:onClick="btnHarfAl"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/tahmin_et_buton"
+            android:onClick="btnTahminEt"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

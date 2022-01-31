@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="478dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/person_border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="İstatistik Tablosu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/tablo_kapat"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/kapat" />
+
+    </RelativeLayout>
+
+    <!-- Toplam Soru Kısmı -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Toplam Soru Sayısı"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:min="0"
+        android:id="@+id/sorusayisi_bar"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0 / 10"
+        android:textSize="17sp"
+        android:id="@+id/soru_sayisi_gösterge"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <!-- Toplam Soru Kısmı -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Toplam Kelime Sayısı"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:min="0"
+        android:id="@+id/kelimesayisi_bar"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0 / 10"
+        android:textSize="17sp"
+        android:id="@+id/kelime_sayisi_gösterge"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <!-- Toplam Soru Kısmı -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Toplam Yanlış Tahmin Sayısı"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:min="0"
+        android:id="@+id/yanlis_tahmin_sayisi_bar"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0 / 10"
+        android:textSize="17sp"
+        android:id="@+id/yanlis_kelime_sayisi_gösterge"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/butonlar"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+
+
+        <Button
+            android:id="@+id/btn_anasayfaya_don"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_round_bg_2"
+            android:text="Ana Menüye Dön"
+            android:textAllCaps="false"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bbtn_tekrar_oyna"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_round_bg_2"
+            android:text="Tekrar Oyna"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/person_border" />
+
+</LinearLayout>

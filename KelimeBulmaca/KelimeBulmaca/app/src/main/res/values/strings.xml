@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kelime Bulmaca</string>
+    <string name="tahimndegergir">Tahmin Değerinizi Giriniz</string>
+    <string name="isim_degistir">İSİM DEĞİŞTİR</string>
+</resources>

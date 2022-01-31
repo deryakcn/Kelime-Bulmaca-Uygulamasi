@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".isim_degistirme_ekrani">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/person_border">
+
+        <TextView
+            android:id="@+id/isim_ayarlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/isim_kapat"
+            android:gravity="center"
+            android:text="Ayarlar"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/isim_kapat"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/kapat"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ayarlar_isim_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="İsim giriniz..."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck">
+
+    </EditText>
+    <Button
+        android:id="@+id/btn_isim_degistir"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_round_bg_2"
+        android:text="İsmimi Değiştir"
+        android:textAllCaps="false"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

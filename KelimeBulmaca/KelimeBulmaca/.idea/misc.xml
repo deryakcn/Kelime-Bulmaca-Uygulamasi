@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable-v24/btn_round_bg_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable/cikis_button_background.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable/harf_al_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable/kapat.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable/market_button_backgground.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable/play_button_background.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/drawable/tahmin_et_buton.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/layout/activity_giris_ekrani.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/layout/activity_isim_degistirme_ekrani.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/layout/activity_istatislik_tablosu.xml" value="0.2" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/layout/activity_oyun_ekrani.xml" value="0.2403846153846154" />
+        <entry key="..\:/Users/Derya/AndroidStudioProjects/KelimeBulmaca/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable-v24/btn_round_bg_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable/cikis_button_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable/harf_al_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable/kapat.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/drawable/market_button_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/layout/activity_giris_ekrani.xml" value="0.264" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/layout/activity_isim_degistirme_ekrani.xml" value="0.536" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/layout/activity_istatislik_tablosu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/layout/activity_oyun_ekrani.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Derya/Desktop/KelimeBulmaca/KelimeBulmaca/app/src/main/res/layout/activity_setting.xml" value="0.6" />
+        <entry key="..\:/Users/Halit/Desktop/KelimeBulmaca/app/src/main/res/layout/activity_giris_ekrani.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Halit/Desktop/KelimeBulmaca/app/src/main/res/layout/activity_isim_degistirme_ekrani.xml" value="0.22" />
+        <entry key="..\:/Users/Halit/Desktop/KelimeBulmaca/app/src/main/res/layout/activity_main.xml" value="0.24423337856173677" />
+        <entry key="..\:/Users/Halit/Desktop/KelimeBulmaca/app/src/main/res/layout/activity_oyun_ekrani.xml" value="0.33" />
+        <entry key="..\:/Users/Halit/Desktop/KelimeBulmaca/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

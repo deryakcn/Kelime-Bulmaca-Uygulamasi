@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="45dp"
+    tools:layout_editor_absoluteY="-156dp">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="-156dp">
+
+
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="DuplicateIds"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/buton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo"
+            tools:ignore="DuplicateIds">
+
+            <Button
+                android:id="@+id/button_hemenoyna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/play_button_background"
+                android:onClick="mainclick"
+                tools:ignore="DuplicateIds,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck" />
+
+
+            <Button
+                android:id="@+id/button_cikis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/cikis_button_background"
+                android:onClick="mainclick"
+                tools:ignore="DuplicateIds,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"></Button>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/butonAyarlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/settings_48px" />
+
+
+        <ImageView
+            android:id="@+id/person_name_bg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-5dp"
+            android:src="@drawable/userprofile"
+            app:layout_constraintStart_toEndOf="@+id/person_profil"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DERYA"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/person_name_bg"
+            app:layout_constraintEnd_toEndOf="@+id/person_name_bg"
+            app:layout_constraintStart_toEndOf="@+id/person_profil"
+            app:layout_constraintTop_toTopOf="@+id/person_name_bg" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/person_profil"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="profilResminiKaydet"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_color="@color/person_border"
+            app:civ_border_width="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        tools:ignore="DuplicateIds">
+
+        <Button
+            android:id="@+id/button_hemenoyna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/play_button_background"
+            android:onClick="mainclick"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <Button
+            android:id="@+id/button_cikis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cikis_button_background"
+            android:onClick="mainclick"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
